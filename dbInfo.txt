@@ -1,0 +1,17 @@
+*Main Tables*
+The Contact table contains basic customer information including names,
+company addresses, project information, and so forth.
+
+The Notes table stores all sales activity information such as meetings
+and phone calls.
+
+The Users table holds login information about users of the system such as
+usernames and passwords. Users can also have roles, such as Sales or Manager.
+
+*Lookup Tables*
+contact_status — contains contact status such as Lead and Opportunity. Each indicates a different stage in a typical sales cycle
+task_status — the task status can be either Pending or Completed
+user_status — a sale person can be Active or Inactive
+todo_type — a type of task either Task or Meeting
+todo_desc — description of a task such as Follow Up Email, Phone Call, and Conference etc.
+roles — a user can be either a Sales Rep or a Manager
